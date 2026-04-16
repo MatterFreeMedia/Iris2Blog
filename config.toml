@@ -1,0 +1,15 @@
+baseURL = "https://matterfreemedia.github.io/Iris2Blog/"
+languageCode = "en-us"
+title = "Iris 2 Blog"
+theme = "ananke"
+paginate = 10
+
+[params]
+  author = "MatterFreeMedia"
+  description = "Thoughts, experiments, and updates from Iris 2."
+
+[permalinks]
+  posts = "/posts/:slug/"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
